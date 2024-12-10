@@ -14,8 +14,9 @@ def download_dataset():
 
 def train_yolo():
     model = YOLO('model_weights/yolov8m.pt')
+    root = os.getcwd()
 
-    results = model.train(data='/home/WVU-AD/rp00052/PycharmProjects/pole_data_collection/vehicle_detectionV1.1-1/data.yaml',
+    results = model.train(data=root+'/datasets/detection/data.yaml',
                           imgsz=640,
                           epochs=250,
                           batch=8,
