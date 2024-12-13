@@ -20,19 +20,27 @@ mkdir -p datasets/segmentation
 mkdir model_weights
 ```
 
-# Download Dataset
-## Dataset for object detection
-Download the dataset from following link and extract all the files and images into "datasets/detection"
-```commandline
-https://drive.google.com/file/d/118iF3ykmaPogW9f2ssJ9NU7vTZrMYM4m/view?usp=sharing
-```
-
 ## 2. Running the repo after setup (Not first time as above)
 Activate virtual environment
 ```commandline
 source venv/bin/activate
 ```
-## 3. Run training for object detection
+
+# For object Detection
+### 1. Dataset for object detection
+Download the dataset from following link and extract all the files and images into "datasets/detection"
+```commandline
+https://drive.google.com/file/d/118iF3ykmaPogW9f2ssJ9NU7vTZrMYM4m/view?usp=sharing
+```
+
+### 2. Run training for object detection
 ```commandline
 python yolo/train.py
+```
+
+# For lane Segmentation
+## 1. Dataset for segmentation
+Download the dataset from following link and place the two folders in the "datasets/segmentation" path.
+```commandline
+https://drive.google.com/drive/folders/1PDSYJm5d-hpqzxgtxdBCzCegX7tB7x6o?usp=sharing
 ```
