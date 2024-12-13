@@ -44,3 +44,7 @@ Download the dataset from following link and place the two folders in the "datas
 ```commandline
 https://drive.google.com/drive/folders/1PDSYJm5d-hpqzxgtxdBCzCegX7tB7x6o?usp=sharing
 ```
+## 2. Run trainig for lane segmentation
+```commandline
+python segmentation/train.py
+```
