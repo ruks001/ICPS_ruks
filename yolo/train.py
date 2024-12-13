@@ -13,7 +13,7 @@ def download_dataset():
 
 
 def train_yolo():
-    model = YOLO('model_weights/yolov8m.pt')
+    model = YOLO('model_weights/yolov8n.pt')
     root = os.getcwd()
 
     results = model.train(data=root+'/datasets/detection/data.yaml',
