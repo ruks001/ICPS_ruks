@@ -6,3 +6,4 @@ __pycache__/
 /datasets/
 /model_weights/
 /yolo11n.pt
+/ubuntu20.04/global_racetrajectory_optimization/

@@ -5,13 +5,13 @@ Create Virtual Environment
 ```commandline
 python3 -m venv venv
 ```
-Install dependencies
-```commandline
-pip install -r requirements.txt
-```
 Activate the virtual Environment
 ```commandline
 source venv/bin/activate
+```
+Install dependencies
+```commandline
+pip install -r requirements.txt
 ```
 Create directory for dataset and weights
 ```commandline
@@ -52,6 +52,7 @@ python segmentation/train.py
 # For trajectory optimization
 ## 1. Install the docker engine in your pc first.
 ## 2. Go inside the  ubuntu20.04 folder
+## 3. Put the "global_racetrajectory_optimization" inside the ubuntu20.04 folder
 ## 3. Run following commands to build and run:
 ```
 docker build -t ubuntu20 .
