@@ -48,3 +48,12 @@ https://drive.google.com/drive/folders/1PDSYJm5d-hpqzxgtxdBCzCegX7tB7x6o?usp=sha
 ```commandline
 python segmentation/train.py
 ```
+
+# For trajectory optimization
+## 1. Install the docker engine in your pc first.
+## 2. Go inside the  ubuntu20.04 folder
+## 3. Run following commands to build and run:
+```
+docker build -t ubuntu20 .
+docker run --rm ubuntu20
+```
