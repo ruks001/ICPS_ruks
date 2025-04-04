@@ -56,5 +56,5 @@ python segmentation/train.py
 ## 3. Run following commands to build and run:
 ```
 docker build -t ubuntu20 .
-docker run --rm ubuntu20
+docker run --rm -v $(pwd):/app ubuntu20
 ```
